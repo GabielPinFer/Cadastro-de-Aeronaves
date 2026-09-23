@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="rtCodigo" max="32767" attributes="0"/>
+                                  <Component id="rtTripulacao" max="32767" attributes="0"/>
+                                  <Component id="rtPassageiros" alignment="0" pref="70" max="32767" attributes="0"/>
+                                  <Component id="rtPesoBag" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="cxCodigo" pref="189" max="32767" attributes="0"/>
+                                  <Component id="cxTripulacao" max="32767" attributes="0"/>
+                                  <Component id="cxPassageiros" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="cxPesoBag" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="rtModelo" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="rtTipo" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="rtRenda" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="rtEmpregados" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="rtFabricante" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="rtEspecialidade" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="rtPeso" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="rtPropulsao" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Component id="rtMotores" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="cxFabricante" pref="189" max="32767" attributes="0"/>
+                                  <Component id="cxEspecialidade" max="32767" attributes="0"/>
+                                  <Component id="cxEmpregados" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="cxRenda" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="cxTipo" max="32767" attributes="0"/>
+                                  <Component id="cxModelo" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="cxPropulsao" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="cxPeso" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="cxMotores" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="rtTamFuros" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="rtFuros" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="rtComb" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="rtTempVoo" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="rtVelMax" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="rtAltMax" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="rtConsComb" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="rtCarga" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="rtTempLim" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="cxAltMax" max="32767" attributes="0"/>
+                                  <Component id="cxVelMax" max="32767" attributes="0"/>
+                                  <Component id="cxTempoVoo" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="cxTempLim" max="32767" attributes="0"/>
+                                  <Component id="cxCombMax" max="32767" attributes="0"/>
+                                  <Component id="cxConsComb" max="32767" attributes="0"/>
+                                  <Component id="cxCarga" max="32767" attributes="0"/>
+                                  <Component id="cxFuros" max="32767" attributes="0"/>
+                                  <Component id="cxTamFuros" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="rtMissao" max="32767" attributes="0"/>
+                                  <Component id="rtArma" max="32767" attributes="0"/>
+                                  <Component id="rtMunicao" pref="92" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="cxArma" max="32767" attributes="0"/>
+                                  <Component id="cxMissao" max="32767" attributes="0"/>
+                                  <Component id="cxMunicao" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="0" pref="213" max="32767" attributes="0"/>
+                      <Component id="rtDetalhes" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="171" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="rtRevisao" min="-2" pref="70" max="-2" attributes="0"/>
+                          <Component id="rtVazao" alignment="0" min="-2" pref="37" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="cxVazao" pref="124" max="32767" attributes="0"/>
+                          <Component id="cxRevisao" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="btOk" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="74" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="rtDetalhes" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="rtFabricante" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="rtAltMax" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cxFabricante" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                  <Component id="cxAltMax" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="rtEspecialidade" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="rtVelMax" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cxEspecialidade" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cxVelMax" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="rtEmpregados" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="rtTempVoo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cxEmpregados" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cxTempoVoo" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="rtRenda" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="rtTempLim" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cxRenda" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cxTempLim" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="rtCodigo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cxCodigo" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="rtTipo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="rtComb" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cxTipo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cxCombMax" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="rtModelo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="rtConsComb" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cxModelo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cxConsComb" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="rtPropulsao" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="rtCarga" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cxPropulsao" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cxCarga" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="rtPeso" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="rtFuros" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="cxPeso" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="cxFuros" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="rtMotores" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="rtTamFuros" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="cxMotores" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="cxTamFuros" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="rtTripulacao" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="rtArma" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cxTripulacao" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cxArma" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="rtPassageiros" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="rtMissao" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cxPassageiros" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cxMissao" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="rtPesoBag" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="rtMunicao" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cxPesoBag" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cxMunicao" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="rtRevisao" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cxRevisao" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="btOk" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="rtVazao" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cxVazao" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="rtDetalhes">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Detalhes da Aeronave"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rtFabricante">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="10" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Fabricante:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rtEspecialidade">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="10" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Especialidade:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rtEmpregados">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="10" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Empregados:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rtRenda">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="10" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Renda:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rtTipo">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="10" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Tipo:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rtModelo">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="10" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Modelo:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rtPropulsao">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="10" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Propuls&#xe3;o:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rtPeso">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="10" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Peso:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rtMotores">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="10" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Motores:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rtAltMax">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="10" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Altura m&#xe1;xima:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rtVelMax">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="10" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Veloc. m&#xe1;xima:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rtTempVoo">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="10" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Tempo de voo:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rtTempLim">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="10" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Tempo Limite:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rtComb">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="10" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Combust&#xed;vel max.:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rtConsComb">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="10" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Consumo comb.:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rtCarga">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="10" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Carga:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rtFuros">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="10" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Furos:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rtTamFuros">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="8" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Tamanho dos furos:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rtCodigo">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="10" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="C&#xf3;digo:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rtTripulacao">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="10" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Tripula&#xe7;&#xe3;o:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rtPassageiros">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="10" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Passageiros:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rtPesoBag">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="10" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Peso bag.:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rtArma">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="10" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Arma:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rtMissao">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="10" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Missao:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rtMunicao">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="10" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Municao:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="cxFabricante">
+    </Component>
+    <Component class="javax.swing.JTextField" name="cxEspecialidade">
+    </Component>
+    <Component class="javax.swing.JTextField" name="cxEmpregados">
+    </Component>
+    <Component class="javax.swing.JTextField" name="cxRenda">
+    </Component>
+    <Component class="javax.swing.JTextField" name="cxCodigo">
+    </Component>
+    <Component class="javax.swing.JTextField" name="cxTipo">
+    </Component>
+    <Component class="javax.swing.JTextField" name="cxModelo">
+    </Component>
+    <Component class="javax.swing.JTextField" name="cxPropulsao">
+    </Component>
+    <Component class="javax.swing.JTextField" name="cxPeso">
+    </Component>
+    <Component class="javax.swing.JTextField" name="cxMotores">
+    </Component>
+    <Component class="javax.swing.JTextField" name="cxTripulacao">
+    </Component>
+    <Component class="javax.swing.JTextField" name="cxPassageiros">
+    </Component>
+    <Component class="javax.swing.JTextField" name="cxPesoBag">
+    </Component>
+    <Component class="javax.swing.JTextField" name="cxAltMax">
+    </Component>
+    <Component class="javax.swing.JTextField" name="cxVelMax">
+    </Component>
+    <Component class="javax.swing.JTextField" name="cxTempoVoo">
+    </Component>
+    <Component class="javax.swing.JTextField" name="cxTempLim">
+    </Component>
+    <Component class="javax.swing.JTextField" name="cxCombMax">
+    </Component>
+    <Component class="javax.swing.JTextField" name="cxConsComb">
+    </Component>
+    <Component class="javax.swing.JTextField" name="cxCarga">
+    </Component>
+    <Component class="javax.swing.JTextField" name="cxFuros">
+    </Component>
+    <Component class="javax.swing.JTextField" name="cxTamFuros">
+    </Component>
+    <Component class="javax.swing.JTextField" name="cxArma">
+    </Component>
+    <Component class="javax.swing.JTextField" name="cxMissao">
+    </Component>
+    <Component class="javax.swing.JTextField" name="cxMunicao">
+    </Component>
+    <Component class="javax.swing.JButton" name="btOk">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="OK"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btOkActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rtRevisao">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="10" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Revis&#xe3;o:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="cxRevisao">
+    </Component>
+    <Component class="javax.swing.JLabel" name="rtVazao">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="10" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Vaz&#xe3;o:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="cxVazao">
+    </Component>
+  </SubComponents>
+</Form>
